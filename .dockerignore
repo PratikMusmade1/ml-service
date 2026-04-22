@@ -1,0 +1,26 @@
+# Ignore the virtual environment
+.venv/
+venv/
+env/
+bin/
+lib/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore local environment variables
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Render-specific files (not needed for HF)
+render.yaml
